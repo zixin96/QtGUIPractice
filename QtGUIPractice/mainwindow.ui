@@ -30,8 +30,8 @@
    <widget class="QLabel" name="yeah">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>130</y>
+      <x>370</x>
+      <y>60</y>
       <width>151</width>
       <height>71</height>
      </rect>
@@ -44,7 +44,7 @@
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>190</y>
+      <y>170</y>
       <width>151</width>
       <height>71</height>
      </rect>
@@ -56,8 +56,8 @@
    <widget class="QLabel" name="mylabel">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>270</y>
+      <x>550</x>
+      <y>110</y>
       <width>151</width>
       <height>71</height>
      </rect>
@@ -69,8 +69,8 @@
    <widget class="QSpinBox" name="spinBox">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>410</y>
+      <x>650</x>
+      <y>250</y>
       <width>42</width>
       <height>22</height>
      </rect>
@@ -88,11 +88,11 @@
      <number>10</number>
     </property>
    </widget>
-   <widget class="QListWidget" name="listWidget">
+   <widget class="MyListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>310</y>
+      <x>60</x>
+      <y>320</y>
       <width>256</width>
       <height>192</height>
      </rect>
@@ -111,6 +111,13 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyListWidget</class>
+   <extends>QListWidget</extends>
+   <header>mylistwidget.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
